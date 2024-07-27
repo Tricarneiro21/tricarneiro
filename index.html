@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Miguel Carneiro is a Portuguese ultra-distance triathlete and military man representing GRDC MDN and BEAT YOUR LIMIT. Competing in national and international events since 2012, he specializes in Ironman and Ultraman distances. Miguel offers fully customized training plans for triathlons, running, and cycling, tailored to individual goals and levels. Benefit from personal coaching, detailed analysis, and flexible adjustments to help you achieve your athletic potential.">
+  <meta name="keywords" content="#Triathlon #Ironman #Ultraman #UltraRunning #Cycling #PersonalTraining #CustomizedPlans #AthleteCoaching #EnduranceSports #FitnessGoals #SportsTraining #PerformanceEnhancement #AthleteSupport #GRDCMDN #BeatYourLimit">
+
+	<title>TRIcarneiro - Triathlon coaching</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/iconsite.png">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+
+	<style>
+	.modal-dialog {
+		  width: 640px;
+		  height:560px !important;
+		}
+
+	.modal-content {
+
+		/* 80% of window height */
+		height: 60%;
+		background-color:#BBD6EC;
+	}
+
+	.modal-header {
+		background-color: #337AB7;
+		padding:16px 16px;
+		color:#FFF;
+		border-bottom:2px dashed #337AB7;
+	 }
+	.modal-footer {
+
+		background-color: #337AB7;
+		padding:16px 16px;
+		color:#FFF;
+		border-bottom:2px dashed #337AB7;
+	 }
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.divfix [class*="fa fa-"] {
+	margin: 0px 0px 0px 0px;
+	position: fixed;
+	z-index: 3000;
+	border-radius: 90px;
+	width: 40px;
+	height: 40px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 0px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Modulo do menu -->
+<section id="header">
+<nav class="navbar navbar-expand-md navbar-light shadow_box px-3" id="navbar_sticky">
+  <div class="container-fluid">
+		<a class="col_voilet p-0 navbar-brand fw-bold" href="index.html">
+		  <img src="img/logotricarneiro.png" alt="Tricarneiro Logo" style="height: 10%; width: auto; margin-right: 10px;">
+		  <br> <span style="color:black; margin: 40%;" class="font_10">TRIATHLON COACH</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto nav_left">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+		<li class="nav-item">
+          <a class="nav-link" href="about.html">Media </a>
+        </li>
+
+				<li class="nav-item">
+		          <a class="nav-link" href="about.html">Sponsors </a>
+		        </li>
+
+						<li class="nav-item">
+				          <a class="nav-link" href="about.html">Team </a>
+				        </li>
+
+								<li class="nav-item">
+											<a class="nav-link" href="about.html">Coaching </a>
+										</li>
+
+								<li class="nav-item">
+						          <a class="nav-link" href="about.html">Contact </a>
+						        </li>
+
+      </ul>
+      <ul class="coluna">
+				<li class="nav-item">
+				  <a class="nav-link flag" href="#">
+				    <img src="img/flag1.png" alt="English" style="width: 60%; height: 60%;">
+				  </a>
+				</li>
+
+				<li class="nav-item">
+				  <a class="nav-link flag1" href="#">
+				    <img src="img/flag2.png" alt="Portuguese" style="width: 60%; height: 60%;">
+				  </a>
+				</li>
+				<li>
+	<button id="start" type="button" name="button">GET STARTED NOW</button>
+</li>
+      </ul>
+
+
+
+
+    </div>
+  </div>
+</nav>
+</section>
+
+<!-- Modulo dos icones flutuantes das redes sociais -->
+<section>
+	<div class="col12 col-xs-12 col-sm-12  col-md-12 col-lg-12">
+	<div class='row'>
+		<div class="divfix" >
+			<a href="https://www.instagram.com/tricarneiro" target="_blank" class="fa fa-instagram"></a><br/><br/>
+			<a href="https://www.facebook.com/tricarneiro" target="_blank" class="fa fa-facebook"></a><br/><br/>
+			<a href="https://www.youtube.com/channel/UCXky4nPGv7BE24YhIMiuW3g" target="_blank"  class="fa fa-youtube"></a><br/><br/>
+		</div>
+	</div>
+	</div>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+</script>
+
+</body>
+
+</html>
